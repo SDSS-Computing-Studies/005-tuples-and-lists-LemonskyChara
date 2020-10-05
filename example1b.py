@@ -25,7 +25,7 @@ print("== the 1st index is inclusive and the index after the : is not included")
 print(" tuple[1:3] is " + str(myTuple[1:3]))
 print(" tuple[:2] is ", end="")
 print(myTuple[:2])
-print(" tuple[2:] is ", end="")
+print(" tuple[2:] is ")
 print(myTuple[2:])
 print(" tuple[-4:-1] is " + str(myTuple[-4:-1]))
 
