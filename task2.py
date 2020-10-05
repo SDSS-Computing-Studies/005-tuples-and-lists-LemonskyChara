@@ -23,3 +23,12 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+a = str(input("Enter a word: ")).strip()
+b = str(input("Enter a word: ")).strip()
+c = str(input("Enter a word: ")).strip()
+d = str(input("Enter a word: ")).strip()
+e = str(input("Enter a word: ")).strip()
+
+myList = [a,b,c,d,e]
+print(myList)
