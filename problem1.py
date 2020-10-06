@@ -21,8 +21,10 @@ Enter the replacement:Dan
 """
 mylist = ["Alain","Brian","Chris","Justin","Angela","Rick"]
 print(mylist)
-a = str(input("Choose a person from the list to replace:"))
-b = str(input("Enter the replacement:"))
+a = str(input("Choose a person from the list to replace:")).strip()
+b = str(input("Enter the replacement:")).strip()
+
 c = mylist.index(a)
 mylist.insert(c,b)
+mylist.remove(a)
 print(mylist)
