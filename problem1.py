@@ -19,7 +19,7 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
-mylist = ["Alain","Brian","Chris","Justin","Angela","Rick"]
+mylist = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(mylist)
 a = str(input("Choose a person from the list to replace:")).strip()
 b = str(input("Enter the replacement:")).strip()
